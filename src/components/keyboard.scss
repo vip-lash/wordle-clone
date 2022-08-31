@@ -1,0 +1,31 @@
+.keyboard-container {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .keyword-button {
+      color: #ffffff;
+      height: 50px;
+      margin: 10px 6px 0 0;
+      cursor: pointer;
+      border-radius: 4px;
+      background-color: #818384;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

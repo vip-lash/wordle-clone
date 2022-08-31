@@ -1,0 +1,25 @@
+.new-game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+
+  padding: 20px;
+
+  label {
+    margin: 10px 0px;
+  }
+
+  select {
+    width: 150px;
+    padding: 10px 0px;
+  }
+
+  button {
+    margin-top: 20px;
+    height: 80px;
+    width: 150px;
+  }
+}
